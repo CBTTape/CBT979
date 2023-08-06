@@ -1,0 +1,18 @@
+2023-08-06 08:50:22.243269 - Initialized conversion of CBT979
+2023-08-06 08:50:23.460226 - Received CBT.V505.FILE979.PDS from FILE979.XMI 
+2023-08-06 08:50:23.462748 - Found $$$#DATE.txt (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/$$$#DATE
+2023-08-06 08:50:23.462757 - Found $$$#ZZSA.x-dosexec containing application/x-dosexec, moved to PDS/$$$#ZZSA
+2023-08-06 08:50:23.464723 - Found $$README.txt (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/$$README
+2023-08-06 08:50:23.465691 - Found $$READM2.txt (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/$$READM2
+2023-08-06 08:50:23.466640 - Found @FILE979.txt (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/@FILE979
+2023-08-06 08:50:23.499616 - Found CYL005XM.xmi (application/xmit) in CBT.V505.FILE979.PDS
+2023-08-06 08:50:23.506491   - Received RECFM=U data, stored XMIT file as CBT979/CYL005XM.xmi
+2023-08-06 08:50:23.509041 - De-xmi-ed DOCX to CBT979/docs/DOCX.docx
+2023-08-06 08:50:23.510075 - Found NODSI.jcl (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/NODSI
+2023-08-06 08:50:23.511059 - Found NODSIR.jcl (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/NODSIR
+2023-08-06 08:50:23.511997 - Found NODSIZAP.jcl (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/NODSIZAP
+2023-08-06 08:50:23.512868 - Found NODSI00.txt (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/NODSI00
+2023-08-06 08:50:23.513725 - Found NODSI01.jcl (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/NODSI01
+2023-08-06 08:50:23.514676 - Found NODSI02.jcl (text/plain) in CBT.V505.FILE979.PDS, moved to PDS/NODSI02
+2023-08-06 08:50:23.514683 - Found PRACZZSA.zip (application/zip), trying to unzip
+2023-08-06 08:50:23.515000 - Found PRACZZSA.zip (application/zip), extracting to CBT979/PRACZZSA
