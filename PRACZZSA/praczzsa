@@ -1,0 +1,69 @@
+#
+# Hercules Emulator Control file...
+#
+# Description:
+# MaxShutdownSecs:   15
+# LoadUnit:          0000
+# RCFile:
+# LogoFile:
+# IgnoreParseErrors: 0
+# HercGUI Version:   1.14.0.4601
+#
+
+#  System parameters
+
+##ARCHMODE             z/Arch                  # (Hercules 3.x)
+##ALRF                 ENABLE                  # (Hercules 3.x)
+ARCHLVL              z/Arch                  # (Hyperion 4.x)
+ARCHLVL              ENABLE   ASN_LX_REUSE   # (Hyperion 4.x)
+ARCHLVL              ENABLE   BIT44          # (Hyperion 4.x)
+
+MAXCPU               4
+ENGINES              CP,CP,CP,CP
+NUMCPU               4
+
+HERCPRIO             0
+TODPRIO              -20
+DEVPRIO              8
+CPUPRIO              15
+
+AUTO_SCSI_MOUNT      NO
+CCKD                 NOSFD=1
+CNSLPORT             3270
+CONKPALV             (3,1,10)
+CODEPAGE             default
+CPUMODEL             2827
+CPUSERIAL            000001
+CPUVERID             00
+DEVTMAX              0
+DIAG8CMD             DISABLE NOECHO
+ECPSVM               NO
+HTTP                 PORT 80 NOAUTH
+HTTP                 ROOT .\
+MODPATH              .
+LEGACYSENSEID        DISABLE
+LOADPARM             0A4000M1
+LPARNUM              01
+LPARNAME             ZZSA
+MAINSIZE             2000
+MANUFACTURER         IBM
+MODEL                H66 "" "" ""
+MOUNTED_TAPE_REINIT  DISALLOW
+OSTAILOR             Z/OS
+PANRATE              50
+PGMPRDOS             LICENSED
+PLANT                02
+SHCMDOPT             ENABLE NODIAG8
+SYSEPOCH             1900
+TIMERINT             50
+TRACEOPT             TRADITIONAL NOCH9OFLOW
+TZOFFSET             -0000
+XPNDSIZE             0
+YROFFSET             0
+
+#  Display Terminals
+
+0700.2  3270
+
+0A40    3390    c:\praczzsa\cyl005 cu=3990-6
+
